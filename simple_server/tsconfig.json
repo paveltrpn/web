@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+    "strict": true,
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    // "sourceMap": true,
+    "outDir": "./"
+    },
+    "files": ["src/load_async.ts", "src/load_sync.ts", "src/load_async_all.ts", "src/server.ts"]
+}
