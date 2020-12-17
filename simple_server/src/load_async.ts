@@ -27,7 +27,7 @@ async function loadResourceFetch(url: string) {
     console.log(commits);
 }
 
-function main() {
+(function main() {
     let foo_callback = function(text: string) {
         console.log("call - loadResourceXHR()");
         console.log(text);
@@ -36,6 +36,4 @@ function main() {
     loadResourceXHR('http://localhost:8080/assets/foo.html', foo_callback);
     
     loadResourceFetch('http://localhost:8080/assets/foo.html')
-}
-
-main()
+})

@@ -6,7 +6,9 @@
     "removeComments": true,
     "preserveConstEnums": true,
     // "sourceMap": true,
+    "typeRoots": ["E:\\Devtools\\nodejs_global\\npm\\node_modules\\@types"], // Устанавливает ддиректорию поиска типов для TypeScript, чтоб небыло
+                                                                             // подчёркиваний в коде для node.js
     "outDir": "./"
     },
-    "files": ["src/load_async.ts", "src/load_sync.ts", "src/load_async_all.ts", "src/server.ts"]
+    "files": ["src/load_async.ts", "src/load_sync.ts", "src/load_async_all.ts", "src/server.ts", "src/http_server.ts"]
 }

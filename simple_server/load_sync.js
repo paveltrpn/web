@@ -23,4 +23,3 @@ function main() {
     console.log("call - loadResourceXHR_sync()");
     loadResourceXHR_sync('http://localhost:8080/assets/foo.html');
 }
-main();

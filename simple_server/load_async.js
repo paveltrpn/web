@@ -21,12 +21,11 @@ async function loadResourceFetch(url) {
     console.log("call - loadResourceFetch()");
     console.log(commits);
 }
-function main() {
+(function main() {
     let foo_callback = function (text) {
         console.log("call - loadResourceXHR()");
         console.log(text);
     };
     loadResourceXHR('http://localhost:8080/assets/foo.html', foo_callback);
     loadResourceFetch('http://localhost:8080/assets/foo.html');
-}
-main();
+});
