@@ -2,12 +2,11 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 const path = require('path');
-// you can pass the parameter in the command line. e.g. node static_server.js 3000
 const prt: number = 8080;
 
 // maps file extention to MIME types
 // full list can be found here: https://www.freeformatter.com/mime-types-list.html
-const mimeType = {
+const mimeType: any = {
     '.ico': 'image/x-icon',
     '.html': 'text/html',
     '.js': 'text/javascript',
